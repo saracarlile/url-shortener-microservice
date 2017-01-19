@@ -1,0 +1,7 @@
+{
+  "name": "url-shortener-microservice",
+  "description": "A full stack JavaScript app for a re-direct request.  This is a project for Free Code Camp's Back End Certification.",
+  "repository": "https://github.com/saracarlile/url-shortener-microservice",
+  "keywords": ["node", "express", "mongodb", "REST", "API"],
+  "addons": ["mongolab"]
+}

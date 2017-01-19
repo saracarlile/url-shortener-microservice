@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "A full stack JavaScript app for a re-direct request.  This is a project for Free Code Camp's Back End Certification.",
+  "main": "server.js",
+  "scripts": {
+    "runapp": "node test-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.4.12",
+    "shortid": "^2.2.6",
+    "url-validator": "^2.0.3"
+  }
+}
