@@ -41,7 +41,7 @@ function saveUrl(data) {
 
 
   function shorten(url_input) {
-    return 'https://afternoon-waters-31321.herokuapp.com/' + Math.floor(Math.random() * 100000);
+    return 'https://infinite-fjord-75920.herokuapp.com/' + Math.floor(Math.random() * 100000);
   }
 
   function saveToDb(inputurl, shorturl) {
@@ -95,7 +95,7 @@ db.on('connected', function () {
 
 
   app.get('/:url', function (req, res) {
-    var urloutput = 'https://afternoon-waters-31321.herokuapp.com/' + req.params.url;
+    var urloutput = 'https://infinite-fjord-75920.herokuapp.com/' + req.params.url;
     UrlInput.findOne({ 'shortened' : urloutput}).exec().then(function(found) {
         if (found) {
             res.redirect(found.url);
